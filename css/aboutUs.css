@@ -1,0 +1,75 @@
+.aboutUs{
+background-color: #E8E8E8;
+overflow:visible;
+height:400px;
+margin:0px;
+
+}
+
+.container{
+margin: auto;
+}
+
+.aboutUs h3{
+text-align: center;
+font-weight: bold;
+}
+
+.aboutUsCircle{
+border-radius: 50%;
+height: 250px;
+width: 250px;
+background-color: black;
+position: relative;
+top: 20px;
+left:150px;
+z-index: 4;
+float: left;
+padding:40px;
+}
+
+.aboutUsRectangle{
+border-radius: 5px;
+position: relative;
+top:65px;
+left:-70px;
+height: 150px;
+width: 700px;
+background-color: gray;
+overflow: hidden;
+padding-top: 20px;
+padding-left: 250px;
+
+}
+
+.aboutUsRectangleText{
+color: white;
+z-index: 10;
+text-align: left;
+font-size: 15px;
+}
+.aboutUsRectanglebtn{
+border-radius: 20px;
+font-size: 10px;
+color: white;
+border: 1px solid white;
+height: 20px;
+background-color: gray;
+}
+.aboutUsCircleText1{
+padding-top: 20px;
+display: block;
+color: white;
+font-weight: bold;
+}
+.aboutUsCircleText2{
+display: block;
+color: white;
+}
+
+.imgBZN{
+display: block;
+margin-left: auto;
+margin-right: auto;
+object-fit: contain;
+}

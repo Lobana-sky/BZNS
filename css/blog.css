@@ -1,0 +1,41 @@
+.blog{
+background-color: #E8E8E8;
+overflow:visible;
+}
+
+.blog h3{
+text-align: center;
+font-weight: bold;
+}
+.showDetailsebtn{
+border-radius: 20px;
+font-size: 10px;
+color: gray;
+border: 1px solid gray;
+height: 20px;
+background-color: white;
+}
+
+.showDetailsebtn:hover{
+background-color: green;
+color: white;
+border: 1px solid white;
+
+}
+
+.showDetails{
+list-style: none;
+display: none;
+color: black;
+padding: 10px;
+transition: display 50s ease-in-out text-align 50s ease-in-out;
+}
+
+.card:hover .showDetails {
+display: block;
+}
+
+
+
+
+
