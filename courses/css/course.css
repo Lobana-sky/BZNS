@@ -1,0 +1,96 @@
+
+.bodyColor{
+    background-color: #c1c1c1;
+}
+.accordionSection{
+    overflow: auto;
+    max-height: 900px;
+}
+.accordionSectionHide{
+    display: block;
+}
+.tabHidden{
+    visibility: hidden;
+}
+@media screen and (max-width: 775px) {
+    .accordionSectionHide {
+        display: none;
+    }
+    .tabHidden{
+    visibility: visible;
+    }
+}
+
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.accordion:after {
+    content: '\2303';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+
+.active:after {
+    content: "\2304";
+ padding-left: 0.5em;
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.dateCourse{
+color:gray;
+font-size:10px;
+}
+
+.tab {
+    overflow: hidden;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    color: green;
+}
+
+.tab button.active {
+    text-shadow: 0 0 1px green;
+    font-weight: bold;
+}
+
+
+.tabContent {
+    display: none;
+    padding: 6px 12px;
+    border: 3px solid #ccc;
+    border-top: none;
+}
+.showTabDetails{
+    display: block;
+}
